@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Jared
+  host: IoT-Jared
+  disk_quota: 1024M
+  services:
+  - IoT-Jared-cloudantNoSQLDB
+  - IoT-Jared-iotf-service
